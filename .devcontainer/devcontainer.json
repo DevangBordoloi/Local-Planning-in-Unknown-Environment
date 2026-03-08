@@ -1,0 +1,15 @@
+{
+  "name": "ROS2 Humble RViz",
+  "build": {
+    "context": "..",
+    "dockerfile": "../Dockerfile"
+  },
+  "runArgs": [
+    "--net=host",
+    "-e", "DISPLAY=${localEnv:DISPLAY}",
+    "-v", "/tmp/.X11-unix:/tmp/.X11-unix:rw"
+  ],
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  }
+}

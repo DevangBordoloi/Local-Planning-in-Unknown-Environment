@@ -1,0 +1,9 @@
+build/
+install/
+log/
+bag_files/
+rosbag2_*/
+.git/
+*.zip
+__pycache__/
+*.pyc
