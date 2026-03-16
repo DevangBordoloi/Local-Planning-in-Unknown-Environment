@@ -357,4 +357,10 @@ given scenario.
 
 ---
 
-*Course project — Local planning in an unknown environment.*
+## Report
+
+Full project report: `Project_Report.pdf`
+
+## Acknowledgment
+
+Course project: Intro to Robotics Perception and Planning.
