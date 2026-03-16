@@ -34,7 +34,7 @@ platform is **Gazebo + TurtleBot3**.
 | 1 | **Dynamic Window Approach (DWA)** | `local_planner/local_planner/dwa_planner.py` |
 | 2 | **Artificial Potential Field (APF)** | `local_planner/local_planner/apf_planner.py` |
 
-**Bonus:** Dynamic (moving) obstacles via `local_planner/local_planner/dynamic_obstacle_manager.py`.
+**Dynamic:** Dynamic (moving) obstacles via `local_planner/local_planner/dynamic_obstacle_manager.py`.
 
 ---
 
