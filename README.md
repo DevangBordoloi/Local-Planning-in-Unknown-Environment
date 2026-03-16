@@ -17,7 +17,7 @@ success rate, time-to-goal, path efficiency, and obstacle clearance.
 - [Comparison — Which Is Better?](#comparison--which-is-better)
 - [Project Structure](#project-structure)
 - [Experimental Results](#experimental-results)
-- [Result Figures (Report-Style)](#result-figures-report-style)
+- [Result Figures](#result-figures)
 - [Metrics Logged](#metrics-logged)
 - [Environment](#environment)
 
@@ -31,10 +31,10 @@ platform is **Gazebo + TurtleBot3**.
 
 | # | Algorithm | File |
 |---|-----------|------|
-| 1 | **Dynamic Window Approach (DWA)** | `local_planner/dwa_planner.py` |
-| 2 | **Artificial Potential Field (APF)** | `local_planner/apf_planner.py` |
+| 1 | **Dynamic Window Approach (DWA)** | `local_planner/local_planner/dwa_planner.py` |
+| 2 | **Artificial Potential Field (APF)** | `local_planner/local_planner/apf_planner.py` |
 
-**Bonus:** Dynamic (moving) obstacles via `local_planner/dynamic_obstacle_manager.py`.
+**Bonus:** Dynamic (moving) obstacles via `local_planner/local_planner/dynamic_obstacle_manager.py`.
 
 ---
 
