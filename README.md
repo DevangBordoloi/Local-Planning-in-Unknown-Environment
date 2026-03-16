@@ -1,5 +1,26 @@
 # Local Planning in an Unknown Environment
 
+## Abstract
+
+This project presents and evaluates two local planning methods for mobile robot
+navigation in unknown, obstacle-populated environments using ROS 2 Humble and
+Gazebo Classic. The implementation targets TurtleBot3 Burger and compares the
+**Dynamic Window Approach (DWA)** and **Artificial Potential Field (APF)** in
+both static and dynamic obstacle scenarios, with quantitative metrics for
+success rate, time-to-goal, path efficiency, and obstacle clearance.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Quick Start](#quick-start)
+- [Algorithm Details](#algorithm-details)
+- [Comparison — Which Is Better?](#comparison--which-is-better)
+- [Project Structure](#project-structure)
+- [Experimental Results](#experimental-results)
+- [Result Figures (Report-Style)](#result-figures-report-style)
+- [Metrics Logged](#metrics-logged)
+- [Environment](#environment)
+
 ## Project Overview
 
 This ROS 2 (Humble) project implements **two local motion planning algorithms** for a
@@ -246,6 +267,24 @@ local_planner/
 - DWA's trajectory sampling approach is largely immune to local minima in this
   environment, with most runs completing without any recovery events (only 1 of
   8 valid runs required recovery).
+
+## Result Figures (Report-Style)
+
+### DWA Results
+
+<p align="center">
+  <img src="docs/results/DWA_terminal.jpeg" alt="" width="32%" />
+  <img src="docs/results/DWA_rviz.jpeg" alt="" width="32%" />
+  <img src="docs/results/DWA_gaz.jpeg" alt="" width="32%" />
+</p>
+
+### APF Results
+
+<p align="center">
+  <img src="docs/results/APF_terminal.png" alt="" width="32%" />
+  <img src="docs/results/APF_rviz.png" alt="" width="32%" />
+  <img src="docs/results/APF_gaz.png" alt="" width="32%" />
+</p>
 
 ### Algorithm Parameters Used
 
