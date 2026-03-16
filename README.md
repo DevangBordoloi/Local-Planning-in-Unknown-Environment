@@ -143,11 +143,11 @@ Mobile Robots"*, Int. J. Robotics Research, 1986.
 
 | Criterion | DWA | APF |
 |-----------|-----|-----|
-| **Safety (obstacle clearance)** | ✅ Better — collision-checks full trajectory | ⚠️ Reactive only, no look-ahead |
-| **Smoothness** | ✅ Trajectories respect acceleration limits | ⚠️ Can oscillate near obstacles |
-| **Computation** | ⚠️ Heavier (but still real-time on TurtleBot3) | ✅ Very lightweight |
-| **Local minima** | ⚠️ Can still get stuck, but less likely | ❌ Classic failure mode |
-| **Dynamic obstacles** | ✅ Re-plans every cycle with fresh scan | ✅ Reactive by nature |
+| **Safety (obstacle clearance)** |  Better — collision-checks full trajectory |  Reactive only, no look-ahead |
+| **Smoothness** |  Trajectories respect acceleration limits |  Can oscillate near obstacles |
+| **Computation** |  Heavier (but still real-time on TurtleBot3) |  Very lightweight |
+| **Local minima** |  Can still get stuck, but less likely |  Classic failure mode |
+| **Dynamic obstacles** |  Re-plans every cycle with fresh scan |  Reactive by nature |
 | **Tuning effort** | Moderate (6+ parameters) | Low (3–4 parameters) |
 
 ### Verdict
@@ -268,7 +268,7 @@ local_planner/
   environment, with most runs completing without any recovery events (only 1 of
   8 valid runs required recovery).
 
-## Result Figures (Report-Style)
+## Result Figures
 
 ### DWA Results
 
