@@ -273,17 +273,29 @@ local_planner/
 ### DWA Results
 
 <p align="center">
-  <img src="docs/results/DWA_terminal.jpeg" alt="" width="32%" />
-  <img src="docs/results/DWA_rviz.jpeg" alt="" width="32%" />
-  <img src="docs/results/DWA_gaz.jpeg" alt="" width="32%" />
+  <img src="docs/results/DWA_terminal.jpeg" alt="" width="85%" />
+</p>
+
+<p align="center">
+  <img src="docs/results/DWA_rviz.jpeg" alt="" width="85%" />
+</p>
+
+<p align="center">
+  <img src="docs/results/DWA_gaz.jpeg" alt="" width="85%" />
 </p>
 
 ### APF Results
 
 <p align="center">
-  <img src="docs/results/APF_terminal.png" alt="" width="32%" />
-  <img src="docs/results/APF_rviz.png" alt="" width="32%" />
-  <img src="docs/results/APF_gaz.png" alt="" width="32%" />
+  <img src="docs/results/APF_terminal.png" alt="" width="85%" />
+</p>
+
+<p align="center">
+  <img src="docs/results/APF_rviz.png" alt="" width="85%" />
+</p>
+
+<p align="center">
+  <img src="docs/results/APF_gaz.png" alt="" width="85%" />
 </p>
 
 ### Algorithm Parameters Used
